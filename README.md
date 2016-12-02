@@ -42,6 +42,13 @@ docker run --rm -v /path/to/project:/mnt node-tools git
 
 For simplicity , and to be able to use the tools normally, this repository contains binaries you can copy in `/usr/local/bin` (or anythwere in your `$PATH`).
 
-## Known issues
+```shell
+make copy_bins
+```
 
-https://github.com/sass/node-sass/issues/1589
+## Building locally
+
+```shell
+make build
+```
+
