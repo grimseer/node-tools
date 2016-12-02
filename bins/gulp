@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Current working directory: '"$(pwd)"'"
-docker run --rm -v $(pwd):/mnt node-tools gulp $@
+docker run --rm -v $(pwd):/mnt jestefane/node-tools gulp $@
