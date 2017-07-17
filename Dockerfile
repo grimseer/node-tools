@@ -8,7 +8,7 @@ RUN apt-get update \
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
-RUN npm install -g gulp bower jshint
+RUN npm install -g gulp bower jshint @angular/cli
 
 WORKDIR /mnt
 
